@@ -11,10 +11,10 @@
 CRM Maps
 ========
 
-Added google_map view on your pipeline
+Added Google Maps (google_map) view on CRM, widget Google autocomplete both address form and places, and geolocation button.
 """,
     'depends': ['crm', 'web_google_maps'],
-    'website': '',
+    'website': 'https://github.com/gityopie/odoo-addons',
     'data': [
         'views/crm_lead.xml',
         'views/res_partner.xml',

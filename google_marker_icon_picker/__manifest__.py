@@ -15,7 +15,7 @@ Google Marker Icon Picker
   adding attribute color='[field_name]'
 """,
     'depends': ['web_google_maps'],
-    'website': '',
+    'website': 'https://github.com/gityopie/odoo-addons',
     'data': ['views/template.xml'],
     'qweb': ['static/src/xml/marker_color.xml'],
     'demo': [],
