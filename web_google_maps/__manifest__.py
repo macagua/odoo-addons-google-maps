@@ -8,19 +8,21 @@
     'support': 'yopiangi@gmail.com',
     'category': 'Extra Tools',
     'description': """
-Web Google Map and google places autocomplete address form
-==========================================================
+Web Google Maps and Google Places autocomplete address form
+===========================================================
+
+Base module of Google Maps view and widget Google autocomplete.
 
 This module brings two features:
-1. Allows user to view all partners addresses on google maps.
-2. Enabled google places autocomplete address form into partner
+1. Allows user to view all partners addresses on Google Maps.
+2. Enabled Google Places autocomplete address form into partner
 form view, provide autocomplete feature when typing address of partner
 """,
     'depends': [
         'base_setup',
         'base_geolocalize',
     ],
-    'website': '',
+    'website': 'https://github.com/gityopie/odoo-addons',
     'data': [
         'data/google_maps_libraries.xml',
         'views/google_places_template.xml',
