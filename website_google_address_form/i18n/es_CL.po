@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_google_address_form
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-29 06:59+0000\n"
+"PO-Revision-Date: 2021-06-29 03:04-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: website_google_address_form
+#: model:ir.model,name:website_google_address_form.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: website_google_address_form
+#: model:ir.model.fields,field_description:website_google_address_form.field_res_config_settings__google_maps_country_restriction
+msgid "Country Restriction"
+msgstr "Restricción de país"
+
+#. module: website_google_address_form
+#: model_terms:ir.ui.view,arch_db:website_google_address_form.res_config_settings_view_form
+msgid ""
+"Restrict results of google address form autocomplete to one or multiple "
+"countries"
+msgstr ""
+"Restringir los resultados del formulario de dirección de Google, el "
+"autocompletado a uno o varios países"
+
+#. module: website_google_address_form
+#: model_terms:ir.ui.view,arch_db:website_google_address_form.res_config_settings_view_form
+msgid "Website Address Form Autocomplete Country Restriction"
+msgstr ""
+"Restricción de país al autocompletar la dirección en el formulario de sitio "
+"web"
