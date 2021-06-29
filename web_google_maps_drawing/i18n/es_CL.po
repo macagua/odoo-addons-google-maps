@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * web_google_maps_drawing
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-21 16:07+0000\n"
+"PO-Revision-Date: 2021-06-21 16:07+0000\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_area
+msgid "Area"
+msgstr "Área"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields.selection,name:web_google_maps_drawing.selection__google_maps_drawing_shape_mixin__shape_type__circle
+msgid "Circle"
+msgstr "Círculo"
+
+#. module: web_google_maps_drawing
+#: model:ir.model,name:web_google_maps_drawing.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__display_name
+msgid "Display Name"
+msgstr "Nombre completo"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_res_config_settings__google_maps_drawing
+msgid "Drawing"
+msgstr "Dibujando"
+
+#. module: web_google_maps_drawing
+#: model_terms:ir.ui.view,arch_db:web_google_maps_drawing.res_config_settings_view_form
+msgid "Drawing library documentation"
+msgstr "documentación de la biblioteca Dibujando"
+
+#. module: web_google_maps_drawing
+#: model_terms:ir.ui.view,arch_db:web_google_maps_drawing.res_config_settings_view_form
+msgid ""
+"Drawing provides a graphical interface for users to draw polygons, rectangles, polylines, circles, and markers on the map. \n"
+"                            Consult the"
+msgstr ""
+"Dibujando proporciona una interfaz gráfica para que los usuarios dibujen "
+"polígonos, rectángulos, polilíneas, círculos y marcadores en el mapa. \n"
+"                            Consulte la"
+
+#. module: web_google_maps_drawing
+#: model:ir.model,name:web_google_maps_drawing.model_google_maps_drawing_shape_mixin
+msgid "Google Maps Shape Mixin"
+msgstr "Mezcla de formas de Google Maps"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__id
+msgid "ID"
+msgstr "ID"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin____last_update
+msgid "Last Modified on"
+msgstr "Modificado el"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: web_google_maps_drawing
+#. openerp-web
+#: code:addons/web_google_maps_drawing/static/src/js/widget/field_gmaps_drawing.js:0
+#, python-format
+msgid "Only one shape is allowed!"
+msgstr "¡Sólo se permite un valor!"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_paths
+msgid "Paths"
+msgstr "Rutas"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields.selection,name:web_google_maps_drawing.selection__google_maps_drawing_shape_mixin__shape_type__polygon
+msgid "Polygon"
+msgstr "Polígono"
+
+#. module: web_google_maps_drawing
+#. openerp-web
+#: code:addons/web_google_maps_drawing/static/src/xml/drawing.xml:0
+#, python-format
+msgid "Press this button to delete the selected shape"
+msgstr "Pulse este botón para eliminar la forma seleccionada"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_radius
+msgid "Radius"
+msgstr "Radio"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields.selection,name:web_google_maps_drawing.selection__google_maps_drawing_shape_mixin__shape_type__rectangle
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+#. module: web_google_maps_drawing
+#: model:ir.model.fields,field_description:web_google_maps_drawing.field_google_maps_drawing_shape_mixin__shape_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: web_google_maps_drawing
+#: model_terms:ir.ui.view,arch_db:web_google_maps_drawing.res_config_settings_view_form
+msgid "for more information."
+msgstr "para más información."
