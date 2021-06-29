@@ -11,7 +11,7 @@
 Contacts Maps
 =============
 
-Added map view on contacts
+Added Google Maps view on Contacts.
 """,
     'depends': [
         'contacts',
@@ -19,7 +19,7 @@ Added map view on contacts
         'web_google_maps',
         'google_marker_icon_picker'
     ],
-    'website': '',
+    'website': 'https://github.com/gityopie/odoo-addons',
     'data': [
         'views/res_partner.xml',
     ],
