@@ -9,10 +9,11 @@
     'category': 'Base',
     'sequence': 1000,
     'description': """
-Contact Google Places Autocomplete
-==================================
+Contacts Google Places Autocomplete
+===================================
 
-Use Google Address Form autocomplete to help you find address
+Use Google Places Form autocomplete to help you find address.
+Added widget Google autocomplete places to Contact's name.
 """,
     'depends': [
         'base_geolocalize',

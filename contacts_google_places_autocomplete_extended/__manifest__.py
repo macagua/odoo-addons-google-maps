@@ -9,10 +9,11 @@
     'category': 'Base',
     'sequence': 1000,
     'description': """
-Contact Google Places Autocomplete Extended
-===========================================
+Contacts Google Places Autocomplete Extended
+============================================
 
-Use Google Places autocomplete to help you find a place
+Use Google Places autocomplete to help you find a place.
+Extended version of contacts_google_places_autocomplete that manage address number.
 """,
     'depends': [
         'base_address_extended',

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Contact Google Address Form',
+    'name': 'Contacts Google Address Form',
     'version': '13.0.1.0.0',
     'author': 'Yopi Angi',
     'license': 'AGPL-3',
@@ -9,10 +9,11 @@
     'category': 'Base',
     'sequence': 1000,
     'description': """
-Contact Google Address Form
-===========================
+Contacts Google Address Form
+============================
 
-Use Google Address Form autocomplete to help you find address
+Use Google Address Form autocomplete to help you find address. 
+This added widget Google autocomplete address form on address fields on Contacts.
 """,
     'depends': [
         'base_geolocalize',

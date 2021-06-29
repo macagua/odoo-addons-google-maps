@@ -9,10 +9,11 @@
     'category': 'Base',
     'sequence': 1000,
     'description': """
-Contact Google Address Form
-===========================
+Contact Google Address Form Extended
+====================================
 
-Use Google Address Form autocomplete to help you find address
+Use Google Address Form autocomplete to help you find address.
+Extented version of contacts_google_address_form that manage address number.
 """,
     'depends': [
         'base_address_extended',
