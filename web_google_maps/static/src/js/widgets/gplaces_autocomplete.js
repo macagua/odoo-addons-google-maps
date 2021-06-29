@@ -509,12 +509,11 @@ odoo.define('web_google_maps.GplaceAutocompleteFields', function (require) {
                 google.maps.event.clearInstanceListeners(this.places_autocomplete);
             }
             return this._super();
-        }
+        },
     });
 
     return {
         GplacesAddressAutocompleteField: GplaceAddressAutocompleteField,
-        GplacesAutocompleteField: GplacesAutocompleteField
+        GplacesAutocompleteField: GplacesAutocompleteField,
     };
-
 });

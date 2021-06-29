@@ -1,24 +1,24 @@
-odoo.define('web_google_maps.MapView', function (require) {
+odoo.define('web_google_maps.GoogleMapView', function (require) {
     'use strict';
 
     var BasicView = require('web.BasicView');
     var core = require('web.core');
     var pyUtils = require('web.py_utils');
 
-    var MapModel = require('web_google_maps.MapModel');
-    var MapRenderer = require('web_google_maps.MapRenderer').MapRenderer;
-    var MapController = require('web_google_maps.MapController');
+    var GoogleMapModel = require('web_google_maps.GoogleMapModel');
+    var GoogleMapRenderer = require('web_google_maps.GoogleMapRenderer').GoogleMapRenderer;
+    var GoogleMapController = require('web_google_maps.GoogleMapController');
 
     var _lt = core._lt;
 
-    var MapView = BasicView.extend({
+    var GoogleMapView = BasicView.extend({
         accesskey: 'm',
         display_name: _lt('Map'),
         icon: 'fa-map-o',
         config: _.extend({}, BasicView.prototype.config, {
-            Model: MapModel,
-            Renderer: MapRenderer,
-            Controller: MapController,
+            Model: GoogleMapModel,
+            Renderer: GoogleMapRenderer,
+            Controller: GoogleMapController,
         }),
         viewType: 'google_map',
         mobile_friendly: true,
@@ -116,10 +116,10 @@ odoo.define('web_google_maps.MapView', function (require) {
                 gridSize: 40,
                 maxZoom: 7,
                 zoomOnClick: true,
-                imagePath: '/web_google_maps/static/lib/markercluster/img/m',
+                imagePath: '/web_google_maps/static/lib/markerclusterer/img/m',
             };
         },
     });
 
-    return MapView;
+    return GoogleMapView;
 });

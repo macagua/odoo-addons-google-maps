@@ -1,4 +1,4 @@
-odoo.define('web_google_maps.MapFormView', function (require) {
+odoo.define('web_google_maps.GoogleMapFormView', function (require) {
     'use strict';
 
     var pyUtils = require('web.py_utils');

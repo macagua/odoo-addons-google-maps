@@ -1,7 +1,9 @@
 odoo.define('web_google_maps.relational_fields', function (require) {
+    'use strict';
+
     var core = require('web.core');
     var relational_fields = require('web.relational_fields');
-    var MapRenderer = require('web_google_maps.MapRenderer').MapRenderer;
+    var GoogleMapRenderer = require('web_google_maps.GoogleMapRenderer').GoogleMapRenderer;
 
     var qweb = core.qweb;
 
@@ -32,7 +34,7 @@ odoo.define('web_google_maps.relational_fields', function (require) {
                 deletable: true,
                 read_only_mode: this.isReadonly,
             };
-            return new MapRenderer(this, this.value, {
+            return new GoogleMapRenderer(this, this.value, {
                 arch: arch,
                 record_options: record_options,
                 viewType: 'google_map',

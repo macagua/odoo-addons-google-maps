@@ -1,4 +1,4 @@
-odoo.define('web_google_maps.MapController', function (require) {
+odoo.define('web_google_maps.GoogleMapController', function (require) {
     'use strict';
 
     var Context = require('web.Context');
@@ -9,7 +9,7 @@ odoo.define('web_google_maps.MapController', function (require) {
     var _t = core._t;
     var qweb = core.qweb;
 
-    var MapController = BasicController.extend({
+    var GoogleMapController = BasicController.extend({
         custom_events: _.extend({}, BasicController.prototype.custom_events, {
             button_clicked: '_onButtonClicked',
             kanban_record_delete: '_onRecordDelete',
@@ -275,5 +275,5 @@ odoo.define('web_google_maps.MapController', function (require) {
         },
     });
 
-    return MapController;
+    return GoogleMapController;
 });
