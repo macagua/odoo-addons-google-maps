@@ -53,6 +53,12 @@ odoo.define('web_google_maps.Utils', function (require) {
         country_id: 'country_id',
     };
 
+    /**
+     *
+     * @param {*} model
+     * @param {*} field_name
+     * @param {*} value
+     */
     function fetchValues(model, field_name, value) {
         var def = $.Deferred();
         var res = {};
@@ -74,6 +80,12 @@ odoo.define('web_google_maps.Utils', function (require) {
         return def;
     }
 
+    /**
+     *
+     * @param {*} model
+     * @param {*} country
+     * @param {*} state
+     */
     function fetchCountryState(model, country, state) {
         var def = $.Deferred();
 
@@ -96,6 +108,11 @@ odoo.define('web_google_maps.Utils', function (require) {
         return def;
     }
 
+    /**
+     *
+     * @param {*} place
+     * @param {*} options
+     */
     function gmaps_get_geolocation(place, options) {
         if (!place) return {};
 
@@ -110,6 +127,11 @@ odoo.define('web_google_maps.Utils', function (require) {
         return vals;
     }
 
+    /**
+     *
+     * @param {*} place
+     * @param {*} place_options
+     */
     function gmaps_populate_places(place, place_options) {
         if (!place) return {};
 
@@ -130,6 +152,12 @@ odoo.define('web_google_maps.Utils', function (require) {
         return values;
     }
 
+    /**
+     *
+     * @param {*} place
+     * @param {*} address_options
+     * @param {*} delimiter
+     */
     function gmaps_populate_address(place, address_options, delimiter) {
         if (!place) return {};
         address_options = (typeof address_options !== 'undefined') ? address_options : {};

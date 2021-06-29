@@ -23,19 +23,19 @@
             <div class="o_form_marker_buttons_actions">
                 <t t-if="widget.is_action_enabled('create')">
                     <button type="button" class="btn btn-primary o-map-button-new" accesskey="c">
-                        <t t-esc="create_text || _t('Create')"/>
+                        Create
                     </button>
                 </t>
                 <button type="button" class="btn btn-secondary o-map-button-center-map">
-                    <t t-esc="_t('Center Map')"/>
+                    Center Map
                 </button>
             </div>
             <div class="o_form_marker_buttons_edit o_hidden">
                 <button type="button" class="btn btn-primary o-map-button-marker-save">
-                    <t t-esc="_('Save')"/>
+                    Save
                 </button>
                 <button type="button" class="btn btn-secondary o-map-button-marker-discard">
-                    <t t-esc="_('Discard')"/>
+                    Discard
                 </button>
             </div>
         </div>
@@ -43,7 +43,7 @@
     <t t-name="FormView.marker_edit_button">
         <t t-if="widget.is_action_enabled('edit')">
             <button type="button" class="btn btn-secondary o-map-button-marker-edit o_hidden">
-                <t t-esc="_('Edit Geolocation')"/>
+                Edit Geolocation
             </button>
         </t>
     </t>

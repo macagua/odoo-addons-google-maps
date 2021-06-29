@@ -11,6 +11,7 @@ odoo.define('web_google_maps.GoogleMapRenderer', function (require) {
     var Utils = require('web_google_maps.Utils');
 
     var qweb = core.qweb;
+    var _lt = core._lt;
 
     var MARKER_COLORS = [
         'black',
@@ -216,7 +217,7 @@ odoo.define('web_google_maps.GoogleMapRenderer', function (require) {
                 var styledMapType = new google.maps.StyledMapType(
                     self.mapThemes[style],
                     {
-                        name: 'Theme',
+                        name: _lt('Styled Map'),
                     }
                 );
                 self.gmap.setOptions({
@@ -226,7 +227,7 @@ odoo.define('web_google_maps.GoogleMapRenderer', function (require) {
                             'satellite',
                             'hybrid',
                             'terrain',
-                            'styled_map',
+                            'styled_map'
                         ],
                     },
                 });
@@ -237,7 +238,7 @@ odoo.define('web_google_maps.GoogleMapRenderer', function (require) {
             };
             if (!this.theme) {
                 this._rpc({
-                    route: '/web/map_theme',
+                    route: '/web/map_theme'
                 }).then(function (data) {
                     if (
                         data.theme &&

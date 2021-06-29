@@ -13,7 +13,7 @@ odoo.define('web_google_maps.GoogleMapView', function (require) {
 
     var GoogleMapView = BasicView.extend({
         accesskey: 'm',
-        display_name: _lt('Map'),
+        display_name: _lt('Google Map'),
         icon: 'fa-map-o',
         config: _.extend({}, BasicView.prototype.config, {
             Model: GoogleMapModel,
@@ -102,7 +102,7 @@ odoo.define('web_google_maps.GoogleMapView', function (require) {
             );
         },
         _getClusterMarkerConfigMapper: function () {
-            // more options can be found on this url https://googlemaps.github.io/v3-utility-library/interfaces/_google_markerclustererplus.markerclustereroptions.html
+            // more options can be check on this link: https://googlemaps.github.io/v3-utility-library/interfaces/_google_markerclustererplus.markerclustereroptions.html
             // override this function and the `_getDefaultClusterMarkerConfig` if you want cover more 
             return {
                 cluster_grid_size: 'gridSize',
