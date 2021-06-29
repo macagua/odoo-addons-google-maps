@@ -81,7 +81,8 @@ How to load shape(s) on `google_map` view
         </field>
     </record>
 ```
-_I have created a simple use case (custom module) to show you how to use the widget_.
+
+_I have created a simple use case (custom module named as ``partner_area_google_maps_drawing``) to show you how to use the widget_.
 
 # Module Dependency:
 This module will install `web_google_maps`.
