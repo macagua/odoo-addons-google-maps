@@ -1,0 +1,125 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * crm_maps
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-21 14:13+0000\n"
+"PO-Revision-Date: 2021-06-21 10:19-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "<i class=\"fa fa-comments\" aria-label=\"Unread messages\" role=\"img\"/>"
+msgstr ""
+"<i class=\"fa fa-comments\" aria-label=\"Mensajes no leídos\" role=\"img\"/>"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.crm_lead_partner_google_map_view
+msgid ""
+"<i class=\"fa fa-fw fa-calendar\" aria-label=\"Meetings\" role=\"img\" "
+"title=\"Meetings\"/>"
+msgstr ""
+"<i class=\"fa fa-fw fa-calendar\" aria-label=\"Reuniones\" role=\"img\" "
+"title=\"Reuniones\"/>"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.crm_lead_partner_google_map_view
+msgid ""
+"<i class=\"fa fa-fw fa-star\" aria-label=\"Favorites\" role=\"img\" "
+"title=\"Favorites\"/>"
+msgstr ""
+"<i class=\"fa fa-fw fa-star\" aria-label=\"Favoritos\" role=\"img\" title=\""
+"Favoritos\"/>"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_form_google_maps_inherit
+msgid ""
+"<span class=\"oe_inline\"> ( </span>\n"
+"                            <span> Lat : </span>"
+msgstr ""
+"<span class=\"oe_inline\"> ( </span>\n"
+"                            <span> Latitud : </span>"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_form_google_maps_inherit
+msgid "<span> : Long : </span>"
+msgstr "<span> : Longitud : </span>"
+
+#. module: crm_maps
+#: model:ir.model.fields,field_description:crm_maps.field_crm_lead__customer_latitude
+msgid "Customer Latitude"
+msgstr "Latitud del cliente"
+
+#. module: crm_maps
+#: model:ir.model.fields,field_description:crm_maps.field_crm_lead__customer_longitude
+msgid "Customer Longitude"
+msgstr "Longitud del cliente"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "Delete"
+msgstr "Eliminar"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "Dropdown menu"
+msgstr "Menú desplegable"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "Edit"
+msgstr "Editar"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_form_google_maps_inherit
+msgid "Geolocalize"
+msgstr "Geolocalizar"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_form_google_maps_inherit
+msgid "Geolocation"
+msgstr "Geolocalización"
+
+#. module: crm_maps
+#: model:ir.actions.act_window,name:crm_maps.action_crm_lead_map
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_form_google_maps_inherit
+msgid "Google Map"
+msgstr "Google Map"
+
+#. module: crm_maps
+#: model:ir.model,name:crm_maps.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "Maps"
+msgstr "Mapas"
+
+#. module: crm_maps
+#: model:ir.actions.act_window,name:crm_maps.action_your_maps
+msgid "My Maps"
+msgstr "Mi Mapas"
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid ""
+"This bar allows to filter the opportunities based on scheduled activities."
+msgstr ""
+"Esta barra permite filtrar las oportunidades en función de las actividades "
+"programadas."
+
+#. module: crm_maps
+#: model_terms:ir.ui.view,arch_db:crm_maps.view_crm_leads_google_map
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
