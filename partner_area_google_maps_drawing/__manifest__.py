@@ -11,7 +11,7 @@
 Partner Area
 ============
 
-A Google Maps Drawing  implementation for define the Partner Area for sale.
+A Google Maps Drawing implementation for define the Partner Area for sale.
 
 This module brings the features:
 
