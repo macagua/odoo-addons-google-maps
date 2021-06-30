@@ -20,7 +20,7 @@ Extented version of contacts_google_address_form that manage address number.
         'contacts_google_address_form',
         'web_google_maps',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/contacts_google_address_form_extended/',
     'data': [
         'views/res_partner.xml',
         'views/template.xml',

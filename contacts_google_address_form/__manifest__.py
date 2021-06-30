@@ -19,7 +19,7 @@ This added widget Google autocomplete address form on address fields on Contacts
         'base_geolocalize',
         'web_google_maps',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/contacts_google_address_form/',
     'data': [
         'views/res_partner.xml',
     ],

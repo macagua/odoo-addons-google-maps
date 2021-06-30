@@ -7,17 +7,18 @@
     'maintainer': 'Yopi Angi<yopiangi@gmail.com>',
     'support': 'yopiangi@gmail.com',
     'category': 'Extra Tools',
+    'description': """
+Website Google Address Form
+===========================
+
+Enable Google Address Form Autocomplete on Website sale customer form
+""",
     'depends': [
         'website_sale',
         'web_google_maps'
     ],
-    'description': """
-Google Address Form Autocomplete
-================================
-
-Enable Google Address form autocomplete on Website sale customer form
-""",
     'demo': [],
+    'website': 'https://apps.odoo.com/apps/modules/12.0/website_google_address_form/',
     'data': [
         'views/template.xml',
         'views/res_config_settings.xml'

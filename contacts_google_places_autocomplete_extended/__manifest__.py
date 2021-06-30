@@ -19,7 +19,7 @@ Extended version of contacts_google_places_autocomplete that manage address numb
         'base_address_extended',
         'contacts_google_places_autocomplete',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/contacts_google_places_autocomplete_extended/',
     'data': [
         'views/res_partner.xml'
     ],

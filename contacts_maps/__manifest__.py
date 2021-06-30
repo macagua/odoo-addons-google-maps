@@ -19,7 +19,7 @@ Added Google Maps view on Contacts.
         'web_google_maps',
         'google_marker_icon_picker'
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/contacts_maps/',
     'data': [
         'views/res_partner.xml',
     ],

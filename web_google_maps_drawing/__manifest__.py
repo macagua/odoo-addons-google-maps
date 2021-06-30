@@ -16,14 +16,18 @@ Allows users to draw polygons, rectangles, and circles on the map.
     'depends': [
         'web_google_maps',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/12.0/web_google_maps_drawing/',
     'demo': [],
-    'images': ['static/description/thumbnails.png'],
+    'images': [
+        'static/description/thumbnails.png',
+    ],
     'data': [
         'data/google_maps_library.xml',
         'views/template.xml',
         'views/res_config_settings.xml',
     ],
-    'qweb': ['static/src/xml/drawing.xml'],
+    'qweb': [
+        'static/src/xml/drawing.xml',
+    ],
     'installable': True
 }

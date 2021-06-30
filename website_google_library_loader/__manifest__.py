@@ -13,10 +13,15 @@ Website Google Library Loader
 This module aim to fix the issue when module web_google_maps installed
 and website Google Analytic is enabled
 """,
-    'depends': ['web_google_maps', 'website'],
+    'depends': [
+        'web_google_maps',
+        'website',
+    ],
     'sequence': 1000,
-    'website': '',
-    'data': ['views/template.xml'],
+    'website': 'https://github.com/gityopie/odoo-addons',
+    'data': [
+        'views/template.xml',
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,

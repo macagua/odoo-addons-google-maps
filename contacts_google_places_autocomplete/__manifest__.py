@@ -19,7 +19,7 @@ Added widget Google autocomplete places to Contact's name.
         'base_geolocalize',
         'web_google_maps',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/contacts_google_places_autocomplete/',
     'data': [
         'views/res_partner.xml',
     ],

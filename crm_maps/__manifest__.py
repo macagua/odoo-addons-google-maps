@@ -13,8 +13,11 @@ CRM Google Maps
 
 Added Google Maps (google_map) view on CRM, widget Google autocomplete both address form and places, and geolocation button.
 """,
-    'depends': ['crm', 'web_google_maps'],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'depends': [
+        'crm',
+        'web_google_maps',
+    ],
+    'website': 'https://apps.odoo.com/apps/modules/13.0/crm_maps/',
     'data': [
         'views/crm_lead.xml',
         'views/res_partner.xml',

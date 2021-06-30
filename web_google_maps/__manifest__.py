@@ -22,7 +22,7 @@ form view, provide autocomplete feature when typing address of partner
         'base_setup',
         'base_geolocalize',
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://apps.odoo.com/apps/modules/13.0/web_google_maps/',
     'data': [
         'data/google_maps_libraries.xml',
         'views/google_places_template.xml',
@@ -30,8 +30,12 @@ form view, provide autocomplete feature when typing address of partner
         'views/res_config_settings.xml'
     ],
     'demo': [],
-    'images': ['static/description/thumbnails.png'],
-    'qweb': ['static/src/xml/view_google_map.xml'],
+    'images': [
+        'static/description/thumbnails.png',
+    ],
+    'qweb': [
+        'static/src/xml/view_google_map.xml',
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,
