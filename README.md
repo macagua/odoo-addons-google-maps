@@ -1,6 +1,6 @@
-# Google Maps Services addons for Odoo version 13.0
+# Google Maps addons for Odoo version 13.0
 
-These Odoo addons are mainly focus on integrating Odoo with Google Maps Services.
+These Odoo addons are mainly focus on integrating Odoo with [Google Maps](https://developers.google.com/maps) Services.
 
 | Module | Description |
 |--------|-------------|
