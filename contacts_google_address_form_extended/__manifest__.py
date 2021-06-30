@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Contact Google Address Form Extended',
+    'name': 'Contacts Google Address Form Extended',
     'version': '13.0.1.0.1',
     'author': 'Yopi Angi',
     'license': 'AGPL-3',
@@ -9,8 +9,8 @@
     'category': 'Base',
     'sequence': 1000,
     'description': """
-Contact Google Address Form Extended
-====================================
+Contacts Google Address Form Extended
+=====================================
 
 Use Google Address Form autocomplete to help you find address.
 Extented version of contacts_google_address_form that manage address number.
