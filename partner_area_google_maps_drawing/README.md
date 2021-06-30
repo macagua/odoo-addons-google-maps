@@ -6,3 +6,5 @@ This module brings the features:
 
 1. Let you define a Partner Area for Sales app, drawing shapes with a [Google Maps Interface](https://developers.google.com/maps/documentation/javascript/examples/drawing-tools).
 
+![Partner Area Google Maps Drawing](./static/description/drawing_one2many.png)
+
