@@ -5,7 +5,7 @@ These Odoo addons are mainly focus on integrating Odoo with Google Maps Services
 | Module | Description |
 |--------|-------------|
 |:white_check_mark: [web_google_maps](web_google_maps/) | Base module of Google Maps view and widget Google autocomplete |
-|:white_check_mark: [contacts_maps](contacts_maps/) | Added Google Maps view on Contacts |
+|:white_check_mark: [contacts_maps](contacts_maps/) | Added Google Maps view on [Contacts](https://www.odoo.com/page/contacts). |
 :white_check_mark: [crm_maps](crm_maps/) | Added Google Maps view on CRM, widget google autocomplete both address form and places, and geolocation button |
 :white_check_mark: [contacts_google_address_form](contacts_google_address_form/) | Added widget Google autocomplete address form on address fields on Contacts |
 :white_check_mark: [contacts_google_address_form_extended](contacts_google_address_form_extended/) | Extented version of [contacts_google_address_form](contacts_google_address_form/) that manage address number |
