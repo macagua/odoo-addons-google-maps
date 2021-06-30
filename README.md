@@ -1,23 +1,22 @@
-<div align="center">
-    <h3>Odoo Community version 13.0</h3>
-    <p>Custom modules I made for Odoo</p>
-    <p><a href="https://ko-fi.com/P5P4FOM0" target="_blank"><img src="https://www.ko-fi.com/img/donate_sm.png" alt="ko-fi"/></a></p>
-    <p>if you want to support me to keep this project maintained. Thanks :)</p>
-</div>
+# Google Maps Services addons for Odoo version 13.0
 
-Available addons
-----------------
-addon | version | summary
---- | --- | ---
-[contacts_google_address_form](contacts_google_address_form/) | 13.0.1.0.0 | Contacts Google Address Form
-[contacts_google_address_form_extended](contacts_google_address_form_extended/) | 13.0.1.0.1 | Contacts Google Address Form Extended
-[contacts_google_places_autocomplete](contacts_google_places_autocomplete/) | 13.0.1.0.0 | Contacts Google Places Autocomplete
-[contacts_google_places_autocomplete_extended](contacts_google_places_autocomplete_extended/) | 13.0.1.0.0 | Contacts Google Places Autocomplete Extended
-[contacts_maps](contacts_maps/) | 13.0.1.0.1 | Contacts Google Maps
-[crm_maps](crm_maps/) | 13.0.1.0.0 | CRM Google Maps
-[google_marker_icon_picker](google_marker_icon_picker/) | 13.0.1.0.0 | Google Marker Icon Picker
-[partner_area_google_maps_drawing](partner_area_google_maps_drawing/) | 13.0.1.0.1 | Partner Area Google Maps Drawing
-[web_google_maps](web_google_maps/) | 13.0.1.0.1 | Web Google Maps
-[web_google_maps_drawing](web_google_maps_drawing/) | 13.0.1.0.0 | Web Google Maps Drawing
-[website_google_address_form](website_google_address_form/) | 13.0.1.0.1 | Website Google Address Form
-[website_google_library_loader](website_google_library_loader/) | 13.0.1.0.0 | Website Google Library Loader
+These Odoo addons are mainly focus on integrating Odoo with Google Maps Services.
+
+| Module | Description |
+|--------|-------------|
+|:white_check_mark: [web_google_maps](web_google_maps/) | Base module of Google Maps view and widget Google autocomplete |
+|:white_check_mark: [contacts_maps](contacts_maps/) | Added Google Maps view on Contacts |
+:white_check_mark: [crm_maps](crm_maps/) | Added Google Maps view on CRM, widget google autocomplete both address form and places, and geolocation button |
+:white_check_mark: [contacts_google_address_form](contacts_google_address_form/) | Added widget Google autocomplete address form on address fields on Contacts |
+:white_check_mark: [contacts_google_address_form_extended](contacts_google_address_form_extended/) | Extented version of [contacts_google_address_form](contacts_google_address_form/) that manage address number |
+:white_check_mark: [contacts_google_places_autocomplete](contacts_google_places_autocomplete/) | Added widget Google autocomplete places to Contact's name |
+:white_check_mark: [contacts_google_places_autocomplete_extended](contacts_google_places_autocomplete_extended/) | Extended version of [contacts_google_places_autocomplete](contacts_google_places_autocomplete/) that manage address number |
+|:white_check_mark: [web_google_maps_drawing](web_google_maps_drawing/) | Base module of Google Maps Drawing view |
+|:white_check_mark: [partner_area_google_maps_drawing](partner_area_google_maps_drawing/) | A Google Maps Drawing implementation for define the Partner Area for sale |
+|:white_check_mark: [google_marker_icon_picker](google_marker_icon_picker/) | A Google Marker Icon Picker |
+|:white_check_mark: [website_google_address_form](website_google_address_form/) | Website Google Address Form |
+|:white_check_mark: [website_google_library_loader](website_google_library_loader/) | Website Google Library Loader |
+
+
+I tried to cover the basic integration, for more advance integration or integration with other Odoo module, feel free to open a [discussion](https://github.com/gityopie/odoo-addons/discussions).
+
