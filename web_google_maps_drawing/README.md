@@ -1,6 +1,10 @@
 Web Google Maps Drawing
 =======================   
 
+This module allows you to draw a shape on Google Maps
+
+![Web Google Maps Drawing](./static/description/thumbnails.png)
+
 [![Demo](https://i.ytimg.com/vi/DDUFT6XP8AU/2.jpg)](https://youtu.be/DDUFT6XP8AU "Demo")
 
 This module will integrate Google Maps Drawing that allows you to draw a shape on a map.
@@ -10,9 +14,12 @@ You can find the document [here](https://developers.google.com/maps/documentatio
 ## New widget `map_drawing_shape`
 
 This module will support three kind of shapes:
+
 - [Rectangle](https://developers.google.com/maps/documentation/javascript/examples/rectangle-simple).
+
 - [Polygon](https://developers.google.com/maps/documentation/javascript/examples/polygon-simple).
-- [Circle](https://developers.google.com/maps/documentation/javascript/examples/polygon-simple).
+
+- [Circle](https://developers.google.com/maps/documentation/javascript/examples/circle-simple).
 
 
 ## Drawing Mixin    
@@ -81,6 +88,10 @@ How to load shape(s) on `google_map` view
         </field>
     </record>
 ```
+
+Allows you to draw a shape on Map
+
+![Allows you to draw a shape on Map](./static/description/drawing_shapes.png)
 
 _I have created a simple use case (custom module named as ``partner_area_google_maps_drawing``) to show you how to use the widget_.
 

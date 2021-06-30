@@ -11,11 +11,11 @@
 Partner Area
 ============
 
-A Google Maps Drawing implementation for define the Partner Area for sale.
+A Google Maps Drawing implementation for define the Partner Area for Sales app.
 
 This module brings the features:
 
-1. Let you define a Partner Area for sale app, drawing shapes with a Google Maps Interface.
+1. Let you define a Partner Area for Sales app, drawing shapes with a Google Maps Interface.
 """,
     'depends': [
         'web_google_maps_drawing',
@@ -28,5 +28,9 @@ This module brings the features:
         'views/res_partner_area.xml'
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+        'static/description/thumbnails.png',
+    ],
     'installable': True
 }

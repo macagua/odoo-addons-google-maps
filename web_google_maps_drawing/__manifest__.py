@@ -19,6 +19,7 @@ Allows users to draw polygons, rectangles, and circles on the map.
     'website': 'https://apps.odoo.com/apps/modules/12.0/web_google_maps_drawing/',
     'demo': [],
     'images': [
+        'static/description/icon.png',
         'static/description/thumbnails.png',
     ],
     'data': [
