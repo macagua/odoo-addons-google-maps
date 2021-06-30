@@ -1,26 +1,43 @@
 # Web Google Maps
 
-This module contains three new features:
- - New view type and mode `"google_map"`.
- - New widget `"gplaces_address_autocomplete"`.
- - New widget `"gplaces_autocomplete"`.
- 
+Integrate [Google Maps](https://developers.google.com/maps) into Odoo
 
-# Map view  `"google_map"`
+Pinpoint your geolocation data in Odoo using Google Maps...
+
+![Google Maps](./static/description/thumbnails.png)
+
+This module contains four new features:
+
+ - New view type and mode `"google_map"`, allows you to pinpoint location on Google Maps.
+
+ - New widget `"gplaces_address_autocomplete"`, enabled [Google places autocomplete address form](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform) into partner form view, provide autocomplete feature when you typing an address of partner (or any field using this widget).
+
+ - New widget `"gplaces_autocomplete"`, enabled [Google places autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) into partner form view, provide autocomplete feature when typing partner name (or any field using this widget).
+ - Map Localization.
+
+# Map view `"google_map"`
 Basically, this new view `google_map`  will integrate Google Maps into Odoo.
+
+![Map view](./static/description/maps.png)
+
 Enable you to display `res.partner` geolocation on map or any model contains geolocation.
 This feature will work seamlessly with Odoo means you can search your partner location using Odoo search feature.
 
 There are five available attributes that you can customize
  - `lat` : an attribute to tell the map the latitude field on the object __[mandatory]__.
+
  - `lng` : an attribute to tell the map the longitude field on the object __[mandatory]__.
+
  - `color` : an attribute to modify marker color (optional) any given color will set all markers color __[optional]__.
+
  - `colors` : work like attribute `color` but more configurable (you can set marker color depends on it's value) this attribute works similar to `colors` of tree view on Odoo 9.0 __[optional]__.
+
  - `library` : an attribute to indicates which google map library to load.
     This options has two values:
     1. `geometry` [default].
     2. <s>`drawing`</s>.
  
+
 ### How to create the view?    
 Example
 ```xml
@@ -108,6 +125,7 @@ The marker info window will use `kanban-box` kanban card style.
 There are two attributes:
  - `colors`
  Allow you to display different marker color to represent a record on map.
+
  - `color`
  One marker color for all records on map.
 
@@ -128,10 +146,18 @@ Example:
 # New widget `"gplaces_address_autocomplete"`
 
 New widget to integrate [Place Autocomplete Address Form](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform) in Odoo.
+
+Provide autocomplete feature when typing an address:
+
+![New Widget Google Place Autocomplete Address Form](./static/description/widget_gplaces_address_form.gif)
+
 The widget has four options that can be modify:
  - `component_form`.
+
  - `fillfields`.
+
  - `lat`.
+
  - `lng`.
 
 ### Component form `component_form`
@@ -224,6 +250,11 @@ This options tell the widget the fields geolocation, in order to have this field
 # New widget `"gplaces_autocomplete"`
 
 New widget to integrate [Place Autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) in Odoo.
+
+Provide autocomplete feature when typing partner's name:
+
+![New Widget Google Place Autocomplete](./static/description/widget_gplaces_autocomplete.gif)
+
 This widget have similar configuration to `gplaces_address_autocomplete`.
 
 ### Component form `component_form` ###
@@ -258,8 +289,11 @@ This module will install `base_setup` and `base_geolocalize` add-ons.
 *I recommend you to setup __Google Maps Key API__ and add it into Odoo `Settings > General` Settings when you installed this module*
 
 *__List of Google APIs & services required in order to make all features works__*
+
 - [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview).
+
 - [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview).
+
 - [Places API](https://developers.google.com/maps/documentation/places/web-service/overview).
 
 Visit this [page](https://developers.google.com/maps/documentation/javascript/get-api-key) of how to get Google API Key
