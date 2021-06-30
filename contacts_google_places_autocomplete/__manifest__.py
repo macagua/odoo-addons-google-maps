@@ -24,5 +24,8 @@ Added widget Google autocomplete places to Contact's name.
         'views/res_partner.xml',
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'installable': True
 }

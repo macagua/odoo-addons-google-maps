@@ -13,12 +13,15 @@ Website Google Address Form
 
 Enable Google Address Form Autocomplete on Website sale customer form
 """,
+    'website': 'https://apps.odoo.com/apps/modules/12.0/website_google_address_form/',
     'depends': [
         'website_sale',
         'web_google_maps'
     ],
     'demo': [],
-    'website': 'https://apps.odoo.com/apps/modules/12.0/website_google_address_form/',
+    'images': [
+        'static/description/icon.png',
+    ],
     'data': [
         'views/template.xml',
         'views/res_config_settings.xml'

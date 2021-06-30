@@ -24,5 +24,8 @@ Extended version of contacts_google_places_autocomplete that manage address numb
         'views/res_partner.xml'
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'installable': True
 }

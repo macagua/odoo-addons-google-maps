@@ -26,5 +26,8 @@ Extented version of contacts_google_address_form that manage address number.
         'views/template.xml',
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'installable': True,
 }

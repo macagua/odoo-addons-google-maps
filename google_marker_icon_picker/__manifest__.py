@@ -14,10 +14,10 @@ Google Marker Icon Picker
   manually. To apply the selecter marker on map, you can tell map view by
   adding attribute color='[field_name]'
 """,
+    'website': 'https://apps.odoo.com/apps/modules/13.0/google_marker_icon_picker/',
     'depends': [
         'web_google_maps',
     ],
-    'website': 'https://apps.odoo.com/apps/modules/13.0/google_marker_icon_picker/',
     'data': [
         'views/template.xml',
     ],
@@ -25,5 +25,8 @@ Google Marker Icon Picker
         'static/src/xml/marker_color.xml',
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'installable': True,
 }
