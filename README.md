@@ -13,10 +13,9 @@ These Odoo addons are mainly focus on integrating Odoo with Google Maps Services
 :white_check_mark: [contacts_google_places_autocomplete_extended](contacts_google_places_autocomplete_extended/) | Extended version of [contacts_google_places_autocomplete](contacts_google_places_autocomplete/) that manage address number |
 |:white_check_mark: [web_google_maps_drawing](web_google_maps_drawing/) | Base module of Google Maps Drawing view |
 |:white_check_mark: [partner_area_google_maps_drawing](partner_area_google_maps_drawing/) | A Google Maps Drawing implementation for define the Partner Area for sale |
-|:white_check_mark: [google_marker_icon_picker](google_marker_icon_picker/) | A Google Marker Icon Picker |
-|:white_check_mark: [website_google_address_form](website_google_address_form/) | Website Google Address Form |
-|:white_check_mark: [website_google_library_loader](website_google_library_loader/) | Website Google Library Loader |
-
+|:white_check_mark: [google_marker_icon_picker](google_marker_icon_picker/) | A Google Marker Icon Picker let to the user to assign marker's color manually |
+|:white_check_mark: [website_google_address_form](website_google_address_form/) | Added widget Google autocomplete address form on address fields on Website |
+|:white_check_mark: [website_google_library_loader](website_google_library_loader/) | Added the Google Charts Libraries Loader for the Website |
 
 I tried to cover the basic integration, for more advance integration or integration with other Odoo module, feel free to open a [discussion](https://github.com/gityopie/odoo-addons/discussions).
 
