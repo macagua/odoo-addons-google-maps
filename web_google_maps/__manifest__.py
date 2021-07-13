@@ -31,6 +31,7 @@ form view, provide autocomplete feature when typing address of partner
     ],
     'demo': [],
     'images': [
+        'static/description/icon.png',
         'static/description/thumbnails.png',
     ],
     'qweb': [
