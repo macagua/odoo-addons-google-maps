@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <!-- Partner Area Form View inherit from "base.view_partner_form" -->
     <record id="view_res_partner_form_inherit" model="ir.ui.view">
         <field name="name">view.res.partner.form.inherit</field>
         <field name="model">res.partner</field>
@@ -11,7 +12,7 @@
             <xpath expr="//notebook/page[1]" position="before">
                 <page string="Area" autofocus="autofocus">
                     <field name="shape_line_ids" mode="google_map">
-                        <map library="drawing" string="Shape">
+                        <google_map library="drawing" string="Shape">
                             <field name="shape_name"/>
                             <field name="shape_description"/>
                             <field name="shape_type"/>
@@ -35,7 +36,7 @@
                                     </div>
                                 </t>
                             </templates>
-                        </map>
+                        </google_map>
                         <form>
                             <sheet>
                                 <group>

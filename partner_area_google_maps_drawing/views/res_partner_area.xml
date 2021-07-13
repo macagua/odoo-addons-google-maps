@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <!-- Partner Area Form View -->
     <record id="view_res_partner_area_form" model="ir.ui.view">
         <field name="name">view.res.partner.area.form</field>
         <field name="model">res.partner.area</field>
@@ -32,6 +34,8 @@
             </form>
         </field>
     </record>
+
+    <!-- Partner Area Tree View -->
     <record id="view_res_partner_area_tree" model="ir.ui.view">
         <field name="name">view.res.partner.area.tree</field>
         <field name="model">res.partner.area</field>
@@ -46,6 +50,8 @@
             </tree>
         </field>
     </record>
+
+    <!-- Partner Area Kanban View -->
     <record model="ir.ui.view" id="view_res_partner_area_kanban">
         <field name="name">view.res.partner.area.kanban</field>
         <field name="model">res.partner.area</field>
@@ -83,6 +89,8 @@
             </kanban>
         </field>
     </record>
+
+    <!-- Partner Area Map View -->
     <record id="view_res_partner_area_map" model="ir.ui.view">
         <field name="name">view.res.partner.area.map</field>
         <field name="model">res.partner.area</field>
@@ -118,14 +126,25 @@
             </google_map>
         </field>
     </record>
+
+    <!-- Partner Area Action Menu Item -->
     <record id="action_res_partner_area" model="ir.actions.act_window">
         <field name="name">Partner Area</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">res.partner.area</field>
-        <field name="view_mode">kanban,tree,google_map,form</field>
-        <field name="view_type">form</field>
+        <field name="view_mode">tree,kanban,form,pivot,graph,activity,google_map</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new Partner Area, the first step of setting area for a Partner!
+            </p>
+        </field>
     </record>
 
-    <menuitem id="menu_partner_area" string="Partner Area" action="action_res_partner_area" parent="sale.sale_menu_root"/>
+    <!-- Partner Area Menu Item at the Sales Top menu -->
+    <menuitem id="menu_partner_area"
+        name="Partner Area"
+        parent="sale.sale_order_menu"
+        action="action_res_partner_area"
+        sequence="5" />
 
 </odoo>

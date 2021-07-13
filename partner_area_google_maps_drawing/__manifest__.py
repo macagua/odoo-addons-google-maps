@@ -18,10 +18,13 @@ This module brings the features:
 1. Let you define a Partner Area for Sales app, drawing shapes with a Google Maps Interface.
 """,
     'depends': [
+        'base',
+        'web',
         'web_google_maps_drawing',
-        'sale'
+        'sale',
+        'sale_management'
     ],
-    'website': 'https://github.com/gityopie/odoo-addons',
+    'website': 'https://github.com/gityopie/odoo-addons/tree/13.0/',
     'data': [
         'security/ir.model.access.csv',
         'views/res_partner.xml',

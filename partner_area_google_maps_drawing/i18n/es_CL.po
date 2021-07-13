@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-21 20:15+0000\n"
-"PO-Revision-Date: 2021-06-21 16:16-0400\n"
+"POT-Creation-Date: 2021-07-11 23:06+0000\n"
+"PO-Revision-Date: 2021-07-11 23:06+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "Language: es\n"
@@ -18,32 +18,33 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_needaction
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_needaction
 msgid "Action Needed"
 msgstr "Acción necesaria"
 
 #. module: partner_area_google_maps_drawing
 #: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner__shape_line_ids
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_area
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_area
 #: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_users__shape_line_ids
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_form
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_form
 #: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_form_inherit
 msgid "Area"
 msgstr "Área"
 
 #. module: partner_area_google_maps_drawing
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_map
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_kanban
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_map
 #: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_form_inherit
 msgid "Area:"
 msgstr "Área:"
 
 #. module: partner_area_google_maps_drawing
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_tree
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_tree
 msgid "Areas"
 msgstr "Áreas"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_attachment_count
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_attachment_count
 msgid "Attachment Count"
 msgstr "Conteo de archivos adjuntos"
 
@@ -53,23 +54,30 @@ msgid "Contact"
 msgstr "Contacto"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__create_uid
+#: model_terms:ir.actions.act_window,help:partner_area_google_maps_drawing.action_res_partner_area
+msgid ""
+"Create a new Partner Area, the first step of setting area for a "
+"Partner!"
+msgstr ""
+
+#. module: partner_area_google_maps_drawing
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__create_uid
 msgid "Created by"
 msgstr "Creado por"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__create_date
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__create_date
 msgid "Created on"
 msgstr "Creado el"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_description
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_form
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_description
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_form
 msgid "Description"
 msgstr "Descripción"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__display_name
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__display_name
 msgid "Display Name"
 msgstr "Nombre completo"
 
@@ -79,162 +87,163 @@ msgid "Draw Shape"
 msgstr "Dibujar forma"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_follower_ids
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_follower_ids
 msgid "Followers"
 msgstr "Seguidores"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_channel_ids
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_channel_ids
 msgid "Followers (Channels)"
 msgstr "Seguidores (Canales)"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_partner_ids
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Seguidores (Socios)"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__id
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__id
 msgid "ID"
 msgstr "ID"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_needaction
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_unread
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_needaction
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Si está marcada, los mensajes nuevos requieren su atención."
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_error
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_sms_error
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_has_error
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_is_follower
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_is_follower
 msgid "Is Follower"
 msgstr "Es seguidor"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing____last_update
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area____last_update
 msgid "Last Modified on"
 msgstr "Modificado el"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__write_uid
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__write_date
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__write_date
 msgid "Last Updated on"
 msgstr "Ultima actualización en"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_main_attachment_id
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Adjunto principal"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_error
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_has_error
 msgid "Message Delivery error"
 msgstr "Error de entrega de mensaje"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_ids
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_ids
 msgid "Messages"
 msgstr "Mensajes"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_name
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_form
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_name
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_form
 msgid "Name"
 msgstr "Nombre"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_needaction_counter
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Número de Acciónes"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_error_counter
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_has_error_counter
 msgid "Number of errors"
 msgstr "Número de errores"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_needaction_counter
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_needaction_counter
 msgid "Number of messages which requires an action"
 msgstr "Número de mensajes que requieren una acción"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_error_counter
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Número de mensajes con error de entrega"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_unread_counter
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__message_unread_counter
 msgid "Number of unread messages"
 msgstr "Número de mensajes no leídos"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__partner_id
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__partner_id
 msgid "Partner"
 msgstr "Socio"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.actions.act_window,name:partner_area_google_maps_drawing.action_res_partner_area_google_maps_drawing
-#: model:ir.model,name:partner_area_google_maps_drawing.model_res_partner_area_google_maps_drawing
-#: model:ir.ui.menu,name:partner_area_google_maps_drawing.menu_partner_area_google_maps_drawing
+#: model:ir.actions.act_window,name:partner_area_google_maps_drawing.action_res_partner_area
+#: model:ir.model,name:partner_area_google_maps_drawing.model_res_partner_area
+#: model:ir.ui.menu,name:partner_area_google_maps_drawing.menu_partner_area
 msgid "Partner Area"
 msgstr "Área de socio"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_paths
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_paths
 msgid "Paths"
 msgstr "Rutas"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_radius
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_radius
 msgid "Radius"
 msgstr "Radio"
 
 #. module: partner_area_google_maps_drawing
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_map
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_kanban
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_map
 msgid "Radius:"
 msgstr "Radio:"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_has_sms_error
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr "Error de entrega de SMS"
 
 #. module: partner_area_google_maps_drawing
-#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_google_maps_drawing_map
+#: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_area_map
 #: model_terms:ir.ui.view,arch_db:partner_area_google_maps_drawing.view_res_partner_form_inherit
 msgid "Shape"
 msgstr "Forma"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__shape_type
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__shape_type
 msgid "Type"
 msgstr "Tipo"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_unread
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_unread
 msgid "Unread Messages"
 msgstr "Mensajes no leídos"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__message_unread_counter
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__message_unread_counter
 msgid "Unread Messages Counter"
 msgstr "Contador de mensajes no leídos"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__website_message_ids
+#: model:ir.model.fields,field_description:partner_area_google_maps_drawing.field_res_partner_area__website_message_ids
 msgid "Website Messages"
 msgstr "Mensajes del sitio web"
 
 #. module: partner_area_google_maps_drawing
-#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area_google_maps_drawing__website_message_ids
+#: model:ir.model.fields,help:partner_area_google_maps_drawing.field_res_partner_area__website_message_ids
 msgid "Website communication history"
 msgstr "Historial de comunicación del sitio web"
