@@ -8,14 +8,14 @@ Pinpoint your geolocation data in Odoo using Google Maps...
 
 This module contains four new features:
 
- - New view type and mode `"google_map"`, allows you to pinpoint location on Google Maps.
+ - New view type and mode `google_map`, allows you to pinpoint location on Google Maps.
 
- - New widget `"gplaces_address_autocomplete"`, enabled [Google places autocomplete address form](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform) into partner form view, provide autocomplete feature when you typing an address of partner (or any field using this widget).
+ - New widget `gplaces_address_autocomplete`, enabled [Google places autocomplete address form](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform) into partner form view, provide autocomplete feature when you typing an address of partner (or any field using this widget).
 
- - New widget `"gplaces_autocomplete"`, enabled [Google places autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) into partner form view, provide autocomplete feature when typing partner name (or any field using this widget).
+ - New widget `gplaces_autocomplete`, enabled [Google places autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete) into partner form view, provide autocomplete feature when typing partner name (or any field using this widget).
  - Map Localization.
 
-# Map view `"google_map"`
+# Map view `google_map`
 Basically, this new view `google_map`  will integrate Google Maps into Odoo.
 
 ![Map view](./static/description/maps.png)
