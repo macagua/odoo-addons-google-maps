@@ -2,7 +2,7 @@ odoo.define('web_google_maps.MapFormController', function (require) {
     'use strict';
 
     var core = require('web.core');
-    var FormController = require('web.FormController');
+    var MapController = require('web.FormController');
     var qweb = core.qweb;
     var _t = core._t;
 
