@@ -24,5 +24,8 @@ This added widget Google autocomplete address form on address fields on Contacts
         'views/res_partner.xml',
     ],
     'demo': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'installable': True
 }
