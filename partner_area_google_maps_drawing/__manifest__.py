@@ -19,10 +19,11 @@ This module brings the features:
 """,
     'depends': [
         'base',
-        'web',
-        'web_google_maps_drawing',
         'sale',
-        'sale_management'
+        'sale_management',
+        'web',
+        'web_google_maps',
+        'web_google_maps_drawing'
     ],
     'website': 'https://github.com/gityopie/odoo-addons/tree/13.0/',
     'data': [
