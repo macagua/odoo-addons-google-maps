@@ -382,5 +382,4 @@ odoo.define('widget_google_maps_drawing.FieldMapDrawingShape', function (require
     });
 
     return FieldMapDrawingShape;
-
 });

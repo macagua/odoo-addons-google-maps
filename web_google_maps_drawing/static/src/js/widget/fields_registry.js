@@ -5,5 +5,4 @@ odoo.define('web_google_maps_drawing.FieldsRegistry', function (require) {
   var FieldMapDrawingShape = require('widget_google_maps_drawing.FieldMapDrawingShape');
 
   registry.add('map_drawing_shape', FieldMapDrawingShape);
-
 });

@@ -2,6 +2,7 @@
 from odoo import api, fields, models
 from odoo.tools import safe_eval
 
+
 class GoogleMapsDrawingShapeMixin(models.AbstractModel):
     _name = 'google_maps.drawing.shape.mixin'
     _description = 'Google Maps Shape Mixin'
